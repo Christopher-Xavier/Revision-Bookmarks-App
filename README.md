@@ -2,8 +2,8 @@
 I can add bookmarks to my bookmarks list.
 Bookmarks contain:
  Christopher-Bookmarks-App
-
-<https://thinkful-ei-panda.github.io/Christopher-Bookmarks-App/>
+https://github.com/Christopher-Xavier/Revision-Bookmarks-App
+<https://thinkful-ei-panda.github.io/Revision-Bookmarks-App/>
 
 A BookMark App
  Rating (1-5)
