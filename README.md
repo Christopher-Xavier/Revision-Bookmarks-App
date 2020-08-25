@@ -1,10 +1,10 @@
 This is a project by Christopher Bogan
 
 Repo:
-https://github.com/thinkful-ei-panda/Christopher-bookmarks-app
+https://github.com/Christopher-Xavier/Revision-Bookmarks-App
 
 GitHub Pages:
-https://thinkful-ei-panda.github.io/Christopher-bookmarks-app/
+https://thinkful-ei-panda.github.io/Revision-Bookmarks-App/
 
 User Stories
 As a user:
