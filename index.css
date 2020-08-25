@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #ffffff;
+    background-image: url("images/bg-mobile.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: stretch;
+    
+}
+
+h1{
+    font-family: 'Righteous', Impact;
+}
+
+main {
+    border-radius: 10px;
+    background-color: #c936ee;
+    padding: 10px;
+    border: 4px solid rgb(34, 217, 241);
+}
+
+header, ul {
+    text-align: center;
+    list-style: none;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'Righteous', Impact;
+}
+
+.bookmarks-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 5px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Impact;
+}
+
+legend, label {
+    font-family: 'Righteous', Impact;
+}
+
+.two-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.btn, #delete-btn, #url-btn {
+    background-color: #fd0100;
+    color: white;
+    width: 100%;
+    height: 2em;
+    padding-top: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: 'Righteous', Impact;
+}
+
+#expand-btn {
+    background-color: red;
+    color: white;
+    width: 25%;
+    height: 2em;
+    padding-top: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: 'Righteous', Impact;
+}
+
+#expand-btn:hover , .btn:hover, select:hover{
+    background-color: white;
+    color: rgb(43, 113, 219);
+}
+
+
+.bookmarks-list {
+    padding: 0;
+    margin-top: 5px;
+    color: white;
+
+}
+
+.bookmark-input {
+    display: block;
+    text-align: center;
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    width: 80%;
+}
+
+li.bookmark-container {
+    margin-top: 5px;
+    background-color: black;
+    padding-bottom: 5px;
+    width: 100%;
+
+}
+
+li.bookmark-container> .btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    width: 10%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.home-stars{
+   color: yellow;
+   font-weight: bold;
+   font-size: 1.0em;
+   background-color: red;
+   width: 100%;
+   height: 2em;
+   padding-top: 0px;
+   margin-top: 10px;
+   border-radius: 5px;
+}
+
+.bookmark-stars {
+    color: yellow;
+}
+
+div.star-rating-in-form{
+    text-align: center;
+}
+
+option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 600px) {
+    a.btn {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    button#delete-btn.btn{
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    #delete-btn, #expand-btn, #url-btn {
+        margin-left: 10px;
+    }
+
+    main{
+        width: 50%;
+        margin: auto;
+        border: 4px solid red;
+    }
+
+    body{
+        background-image: url("images/crop.jpg");
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+        
+        
+    }
+
+}
