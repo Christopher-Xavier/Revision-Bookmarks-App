@@ -4,7 +4,7 @@ Bookmarks contain:
 
 <https://github.com/Christopher-Xavier/Revision-Bookmarks-App/>
 
-<https://thinkful-ei-panda.github.io/Revision-Bookmarks-App/>
+<https://christopher-xavier.github.io/Revision-Bookmarks-App/>
 
 A BookMark App
  Rating (1-5)
